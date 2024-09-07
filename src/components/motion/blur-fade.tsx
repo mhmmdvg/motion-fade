@@ -24,7 +24,7 @@ interface BlurFadeProps {
   blur?: string;
 }
 
-export function BlurFade({
+function BlurFade({
   children,
   className,
   variant,
@@ -66,3 +66,5 @@ export function BlurFade({
     </AnimatePresence>
   );
 }
+
+module.exports = BlurFade;
